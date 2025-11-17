@@ -1,0 +1,8 @@
+model_name: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+train_data: data/dataset_train.jsonl
+val_data: data/dataset_val.jsonl
+output_dir: models/semantic
+batch_size: 32
+epochs: 8
+learning_rate: 2.0e-5
+warmup_steps: 500

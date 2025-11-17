@@ -1,0 +1,17 @@
+# Parameters for synthetic dataset generation
+seed: 17
+output_path: data/dataset.jsonl
+total_pairs: 100000
+with_context: true
+positive_ratio: 0.7
+negative_ratio: 0.2
+hard_negative_ratio: 0.1
+train_val_test_split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+simulation:
+  num_users: 1200
+  imperfect_ratio: 0.65
+  multilingual_mix: 0.7
+  scrobbles_per_user: [500, 2000]
